@@ -47,7 +47,7 @@ button:hover{
         margin-top: 1em;
     }
 }
-@media only screen and (min-width:700px){
+/* @media only screen and (min-width:700px){
     .form{
         width: fit-content;
         margin-left: 12px;
@@ -60,7 +60,7 @@ button:hover{
         margin-top: 2em;
         width: 35%;
     }
-}
+} */
 
 @media only screen and (min-width:1024px){
     .form{

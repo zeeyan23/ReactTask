@@ -116,17 +116,14 @@
     }
 }
 
-@media only screen and (min-width:360px){
+/* @media only screen and (min-width:360px){
     .v .images{
         width: 104%;
     }
     .v .para{
         margin-left: 2em;
     }
-    /* .v .overlaydiv{
-        margin-top: 6em;
-    } */
-}
+} */
 
 @media only screen and (min-width:1024px){
     /* .v .overlaydiv{
