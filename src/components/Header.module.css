@@ -34,7 +34,9 @@ nav .buynowBtn{
 
 @media only screen and (max-width:650px){
     nav .buynowBtn{
-        margin-left: 4em;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }
 
