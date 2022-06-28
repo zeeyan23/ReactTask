@@ -52,7 +52,7 @@ div .toptoleftmoreinfo:hover{
         padding: 4px;
     }
 }
-@media only screen and (min-width:369px){
+@media only screen and (min-width:600px){
     div .topleft{
         left: 1em;
         top: 3em;
