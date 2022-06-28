@@ -48,6 +48,7 @@ export const Input = ( props) => {
         <input type='number' min='0' max='10' onChange={childrenChangeHandler} placeholder='No.of Children'></input>
         <button>Submit</button>
         {!valid && <p>Please enter all fields!!</p>}
+        <button>test</button>
     </form>
 
   )
