@@ -38,7 +38,7 @@ nav .buynowBtn{
     }
 }
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:700px){
     nav .buynowBtn{
         margin-left: 32em;
     }
