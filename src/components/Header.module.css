@@ -24,7 +24,7 @@ nav .buynowBtn{
     background-color: green;
     padding: 1rem;
     border-radius: 1em;
-    margin-left: 67em;
+    /* margin-left: 67em; */
 }
 
 /* div .image{
@@ -46,8 +46,8 @@ nav .buynowBtn{
     }
 } */
 
-@media only screen and (min-width:1024px){
+/* @media only screen and (min-width:1024px){
     nav .buynowBtn{
         margin-left: 65em;
     }
-}
+} */
