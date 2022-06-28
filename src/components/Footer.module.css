@@ -43,7 +43,7 @@ div .contact a{
         margin-top: 1em;
     }
 }
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:680px){
     div .links{
        margin-left: 7em;
        white-space: nowrap;

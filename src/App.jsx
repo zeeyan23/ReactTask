@@ -45,6 +45,7 @@ function App() {
       noofadult={numberofAdults} 
       noofchildren={numberofChildrens}/>}
       <Layout />
+      {/* <Footer /> */}
     </div>
   )
 }

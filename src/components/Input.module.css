@@ -34,7 +34,8 @@ button:hover{
 @media only screen and (max-width:650px){
     .form{
         width: 77%;
-        margin-left: 5px;
+        margin-left: 9px;
+        margin-right: 5px;
     }
     input{
         width: inherit;
@@ -47,10 +48,11 @@ button:hover{
         margin-top: 1em;
     }
 }
-/* @media only screen and (min-width:700px){
+@media only screen and (min-width:680px){
     .form{
         width: fit-content;
         margin-left: 12px;
+        margin-right: 12px;
     }
     input{
         width: 30%;
@@ -60,7 +62,7 @@ button:hover{
         margin-top: 2em;
         width: 35%;
     }
-} */
+}
 
 @media only screen and (min-width:1024px){
     .form{

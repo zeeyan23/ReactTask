@@ -40,11 +40,13 @@ nav .buynowBtn{
     }
 }
 
-/* @media only screen and (min-width:700px){
+@media only screen and (min-width:680px){
     nav .buynowBtn{
-        margin-left: 32em;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
-} */
+}
 
 /* @media only screen and (min-width:1024px){
     nav .buynowBtn{

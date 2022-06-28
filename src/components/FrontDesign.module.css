@@ -38,13 +38,13 @@ div .toptoleftmoreinfo:hover{
 @media only screen and (max-width:650px){
     div .topleft{
         left: 0em;
-        top: 3em;
+        top: 4em;
         font-size: 17px;
     }
     div .toptoleft{
-        top: 6em;
+        top: 9em;
         left: 0em;
-        font-size: 11px;
+        font-size: 10px;
     }
     div .toptoleftmoreinfo{
         left: 0em;
@@ -52,21 +52,21 @@ div .toptoleftmoreinfo:hover{
         padding: 4px;
     }
 }
-/* @media only screen and (min-width:700px){
+@media only screen and (min-width:680px){
     div .topleft{
-        left: 1em;
+        left: 3em;
         top: 3em;
     }
     div .toptoleft{
         top: 9em;
-        left: 2em;
+        left: 6em;
     }
     div .toptoleftmoreinfo{
-        left: 2em;
-        top: 17em;
+        left: 6em;
+        top: 16em;
         padding: 12px;
     }
-} */
+}
 
 @media only screen and (min-width:1024px){
     div .topleft{

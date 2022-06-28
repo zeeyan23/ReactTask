@@ -86,11 +86,11 @@
         margin-left: 4em;
     } */
     .v .images{
-        width: 76%;
+        width: 150%;
     }
     .v .para{
         margin-left: 0em;
-        margin-top: 29em;
+        margin-top: 26em;
     }
     p{
         font-stretch: condensed;
@@ -98,15 +98,6 @@
     .v .sea{
         margin-top: 3em;
     }
-    /* .v .welcome2{
-        width: 110%;
-    }
-    .v .welcome1{
-        width: 110%;
-    } */
-    /* .v .overlaydiv{
-        top: 53em;
-    } */
     .v .option{
         display: block;
     }
@@ -116,14 +107,14 @@
     }
 }
 
-/* @media only screen and (min-width:360px){
+@media only screen and (min-width:680px){
     .v .images{
-        width: 104%;
+        width: 100%;
     }
     .v .para{
         margin-left: 2em;
     }
-} */
+}
 
 @media only screen and (min-width:1024px){
     /* .v .overlaydiv{
