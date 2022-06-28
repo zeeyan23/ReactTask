@@ -1,0 +1,77 @@
+.form{
+    background: #252e59;
+    padding: 2em;
+    /* margin-left: 0.2em; */
+    width: 94%;
+    border-radius: 1em;
+    margin-top: 2em;
+}
+label{
+    color: white;
+    margin-left: 1em;
+}
+input{
+    padding: 1em;
+    border: none;
+    width: 13%;
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+button{
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    background-color: #3f9cc1;
+    color: white;
+    width: 7%;
+    margin-left: 2em;
+}
+button:hover{
+    background-color: #c1b086;
+}
+@media only screen and (max-width:360px){
+    .form{
+        width: 77%;
+        margin-left: 5px;
+    }
+    input{
+        width: inherit;
+    }
+    label{
+        margin-left: 0px;
+    }
+    button{
+        width: inherit;
+        margin-top: 1em;
+    }
+}
+@media only screen and (min-width:360px){
+    .form{
+        width: fit-content;
+        margin-left: 12px;
+    }
+    input{
+        width: 30%;
+    }
+    button{
+        margin-left: 16em;
+        margin-top: 2em;
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .form{
+        width: inherit;
+        /* margin-left: 7em; */
+        margin-right: 12px;
+    }
+    input{
+        width: 15%;
+    }
+    button{
+        margin-left: 29em;
+    }
+}

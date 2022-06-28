@@ -1,0 +1,51 @@
+div a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 2em;
+    background-color:wheat;
+    padding: 2em;
+    display: flex;
+}
+div p{
+    margin-top: 1em;
+    color: grey;
+}
+div .links{
+    display: grid;
+    margin-left: 9em;
+}
+div .links a{
+    color:gray;
+    margin-top: 5px;
+    font-weight: normal;
+}
+div .contact{
+    margin-left: 11em;
+}
+div .contact a{
+    color: gray;
+    font-weight: normal;
+}
+
+@media only screen and (max-width:360px){
+    .footer{
+        display: block;
+    }
+    div .links{
+        margin-left: 0px;
+        margin-top: 1em;
+    }
+    div .contact{
+        margin-left: 0px;
+        margin-top: 1em;
+    }
+}
+@media only screen and (min-width:1024px){
+    div .links{
+       margin-left: 7em;
+       white-space: nowrap;
+    }
+}

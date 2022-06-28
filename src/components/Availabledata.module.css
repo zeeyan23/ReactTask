@@ -1,0 +1,18 @@
+.result{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1em;
+    background: khaki;
+    width: fit-content;
+    padding: 2em;
+    border: none;
+    margin: auto;
+    margin-top: 1em;
+}
+.result p{
+    color: black;
+    font-size: larger;
+}
+.result h3{
+    font-size: small;
+}

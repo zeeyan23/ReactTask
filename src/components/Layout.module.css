@@ -1,0 +1,135 @@
+.v{
+    font-family: sans-serif;
+    margin-top: 4em;
+    background-color: beige;
+    padding: 1em;
+}
+
+.largepara{
+    margin-top: 3em;
+    color:grey;
+}
+.v img{
+    width: 38%;
+    margin-left: 2em;
+}
+.v .welcome2{
+    width: 49%;
+    float:left
+    
+}
+.v .para{
+    margin-left: 11em;
+}
+.v .images{
+    width: 50%;
+    float: left;
+}
+
+.v .moreinfo{
+    border: 1px solid black;
+    padding: 2em;
+    color: black;
+    background: #c1b086;;
+    border-radius: 2em;
+    border: none;
+    margin-top: 3em;
+    font-size: small;
+    text-decoration: none;
+
+}
+.v .moreinfo:hover{
+    color: white;
+    background-color: blue;
+}
+.v .sea{
+    margin-top: 5em;
+    height: 16em;
+    margin-left: 0px;
+}
+.v .overlaydiv{
+    margin-top: 3em;
+    text-align: center;
+    background-color: #3f9cc1;
+    padding: 3em;
+    border-radius: 1em;
+}
+.v .para2{
+    font-size: 20px;
+    margin-top: 1em;
+    color: white;
+    font-weight: normal;
+}
+.v .raise{
+    margin-top: 1em;
+    background: black;
+    color: white;
+    padding: 1em;
+}
+.v .raise p{
+    color: white;
+}
+.v .option{
+    display: flex;
+    margin-top: 1em;
+}
+.v .option img{
+    width: 64%;
+}
+.v .option p{
+    margin-left: 2em;
+}
+
+/* mobile screen */
+@media only screen and (max-width:360px){
+    /* h3{
+        margin-left: 4em;
+    } */
+    .v .images{
+        width: 76%;
+    }
+    .v .para{
+        margin-left: 0em;
+        margin-top: 29em;
+    }
+    p{
+        font-stretch: condensed;
+    }
+    .v .sea{
+        margin-top: 3em;
+    }
+    .v .welcome2{
+        width: 110%;
+    }
+    .v .welcome1{
+        width: 110%;
+    }
+    /* .v .overlaydiv{
+        top: 53em;
+    } */
+    .v .option{
+        display: block;
+    }
+    .v .option p{
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width:360px){
+    .v .images{
+        width: 104%;
+    }
+    .v .para{
+        margin-left: 2em;
+    }
+    /* .v .overlaydiv{
+        margin-top: 6em;
+    } */
+}
+
+@media only screen and (min-width:1024px){
+    /* .v .overlaydiv{
+        margin-top: 19em;
+    } */
+}

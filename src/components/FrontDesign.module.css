@@ -1,0 +1,87 @@
+
+div .topleft {
+    position: absolute;
+    top: 9em;
+    left: 3em;
+    color: white;
+}
+div .toptoleft{
+    position: absolute;
+    top: 22em;
+    left: 6em;
+    color: white;
+}
+/* div .toptoleftmoreinfo{
+    position: absolute;
+    top: 22em;
+    left: 6em;
+    color: white;
+} */
+img{
+    width:-webkit-fill-available;
+}
+div .toptoleftmoreinfo{
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: transparent;
+    position: absolute;
+    top: 30em;
+    left: 6em;
+    color: white;
+    text-decoration: none;
+}
+div .toptoleftmoreinfo:hover{
+    background-color: #c1b086;
+}
+
+@media only screen and (max-width:360px){
+    div .topleft{
+        left: 0em;
+        top: 3em;
+        font-size: 17px;
+    }
+    div .toptoleft{
+        top: 6em;
+        left: 0em;
+        font-size: 11px;
+    }
+    div .toptoleftmoreinfo{
+        left: 0em;
+        top: 11em;
+        padding: 4px;
+    }
+}
+@media only screen and (min-width:369px){
+    div .topleft{
+        left: 1em;
+        top: 3em;
+    }
+    div .toptoleft{
+        top: 9em;
+        left: 2em;
+    }
+    div .toptoleftmoreinfo{
+        left: 2em;
+        top: 17em;
+        padding: 12px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    div .topleft{
+        left: 2em;
+        /* top: 3em; */
+        font-size: 4em;
+    }
+    div .toptoleft{
+        top: 10em;
+        left: 4em;
+        font-size: 2em;
+    }
+    div .toptoleftmoreinfo{
+        left: 8em;
+        top: 33em;
+        padding: 1em;
+    }
+}
