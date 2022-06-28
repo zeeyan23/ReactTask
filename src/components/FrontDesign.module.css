@@ -35,7 +35,7 @@ div .toptoleftmoreinfo:hover{
     background-color: #c1b086;
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:600px){
     div .topleft{
         left: 0em;
         top: 3em;
