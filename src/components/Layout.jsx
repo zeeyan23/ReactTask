@@ -11,8 +11,6 @@ export const Layout = () => {
   return (
     <div className={styles.v}>
         <div className={styles.images}>
-        <img src={companyLogo} className={styles.welcome1} alt="background image"/>
-        <img src={welcome2} className={styles.welcome2} alt="background image"/>
         </div>
         <div className={styles.para}>
         <p>RAISING COMFORT TO THE HIGHEST LEVEL</p>

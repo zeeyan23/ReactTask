@@ -21,10 +21,10 @@
 .v .para{
     margin-left: 11em;
 }
-.v .images{
+/* .v .images{
     width: 50%;
     float: left;
-}
+} */
 
 .v .moreinfo{
     border: 1px solid black;
@@ -85,9 +85,6 @@
     /* h3{
         margin-left: 4em;
     } */
-    .v .images{
-        width: 148%;
-    }
     .v .para{
         margin-left: 0em;
         margin-top: 19em;
@@ -108,9 +105,7 @@
 }
 
 @media only screen and (min-width:680px){
-    .v .images{
-        width: 100%;
-    }
+    
     .v .para{
         margin-left: 2em;
     }
