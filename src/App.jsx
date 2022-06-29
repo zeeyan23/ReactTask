@@ -9,6 +9,8 @@ import Layout from './components/Layout'
 function App() {
 
   const [dataFound,setDataFound]=useState(false);
+  var [enteredCheckIn,setEnteredCheckIn]=useState('');
+  var [enteredCheckOut,setEnteredCheckOut]=useState('');
   var [numberofAdults,setNumberOfAdults]=useState('');
   var [numberofChildrens,setNumberOfChildrens]=useState('');
 
@@ -16,10 +18,14 @@ function App() {
 
     numberofAdults=data.enteredAdult;
     numberofChildrens=data.enteredChildren;
+    enteredCheckIn=data.enteredCheckIn;
+    enteredCheckOut=data.newFormatedDate;
 
     if(data!=null){
         setNumberOfAdults(data.enteredAdult);
         setNumberOfChildrens(data.enteredChildren);
+        setEnteredCheckIn(data.enteredCheckIn);
+        setEnteredCheckOut(data.newFormatedDate);
         setDataFound(true);
     }
     else{
@@ -32,6 +38,8 @@ function App() {
       <FrontDesign />
       <Input onSaveData={savedData}/>
       {dataFound &&  <Availabledata  
+      dateofcheckIn={enteredCheckIn}
+      dateofcheckOut={enteredCheckOut}
       noofadult={numberofAdults} 
       noofchildren={numberofChildrens}/>}
       <Layout />

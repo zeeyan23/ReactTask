@@ -31,6 +31,7 @@ export const Input = ( props) => {
 
             let newFormatedDate = `${date.getFullYear()}-${formatNum(date.getMonth()+1)}-${formatNum(date.getDate())}`;
 
+            setEnteredCheckOut(newFormatedDate);
             meetingEndDateInput.value = newFormatedDate;
             meetingEndDateInput.setAttribute('min', newFormatedDate);
         }
@@ -48,6 +49,8 @@ export const Input = ( props) => {
     function handleSubmit(event){
         event.preventDefault();
         const FormData={
+            enteredCheckIn,
+            newFormatedDate,
             enteredAdult,
             enteredChildren
         }

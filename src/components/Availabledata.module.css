@@ -21,3 +21,15 @@
 .result .p2,.p3{
     font-size: x-large;
 }
+
+@media only screen and (max-width:650px){
+    .result{
+        width: 74%;
+    }
+}
+
+@media only screen and (min-width:680px){
+    .result{
+        width: 84%;
+    }
+}
