@@ -9,15 +9,15 @@
     margin-top: 3em;
     color:grey;
 }
-.v img{
+/* .v img{
     width: 38%;
     margin-left: 2em;
-}
-.v .welcome2{
+} */
+/* .v .welcome2{
     width: 49%;
     float:left
     
-}
+} */
 .v .para{
     margin-left: 11em;
 }
@@ -87,7 +87,7 @@
     } */
     .v .para{
         margin-left: 0em;
-        margin-top: 19em;
+        /* margin-top: 19em; */
     }
     p{
         font-stretch: condensed;
