@@ -6,8 +6,8 @@ export const Input = ( props) => {
 
     const [enteredCheckIn,setEnteredCheckIn]=useState('');
     const [newFormatedDate,setEnteredCheckOut]=useState('');
-    const [enteredAdult,setEnteredAdult]=useState('');
-    const [enteredChildren,setEnteredChildren]=useState('');
+    const [enteredAdult,setEnteredAdult]=useState(1);
+    const [enteredChildren,setEnteredChildren]=useState(0);
 
     function checkinChangeHandler(event){
 
@@ -68,9 +68,9 @@ export const Input = ( props) => {
         <label>Check-out:*</label>
         <input type='date' name="datepickers" value={newFormatedDate} onChange={checkoutChangeHandler} id="create-smeeting-enddate" ></input>
         <label>Adults:</label>
-        <input type='number' min='1' max='15' value={enteredAdult} onChange={adultChangeHandler} placeholder='No.of Adults'></input>
+        <input type='number' min='1' max='15' value={enteredAdult} onChange={adultChangeHandler}></input>
         <label>Children:</label>
-        <input type='number' min='0' max='10' value={enteredChildren} onChange={childrenChangeHandler} placeholder='No.of Children'></input>
+        <input type='number' min='0' max='10' value={enteredChildren} onChange={childrenChangeHandler}></input>
         <button>Submit</button>
     </form>
 

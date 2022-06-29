@@ -80,7 +80,9 @@
 .v .option p{
     margin-left: 2em;
 }
-
+.v .para h3{
+    margin-top: 1em;
+}
 /* mobile screen */
 @media only screen and (max-width:650px){
     /* h3{

@@ -10,8 +10,6 @@ import Footer from './Footer';
 export const Layout = () => {
   return (
     <div className={styles.v}>
-        <div className={styles.images}>
-        </div>
         <div className={styles.para}>
         <p>RAISING COMFORT TO THE HIGHEST LEVEL</p>
         <h3>Welcome to Luviana Hotel Resort</h3>
