@@ -8,11 +8,16 @@
     border: none;
     margin: auto;
     margin-top: 1em;
+    box-shadow: 10px 10px 5px black;
 }
-.result p{
-    color: black;
-    font-size: larger;
+.result .p1 ,.p2 ,.p3{
+   color: black;
 }
-.result h3{
-    font-size: small;
+.result .p1{
+    font-size:x-large;
+    color: green;
+    margin-top: auto;
+}
+.result .p2,.p3{
+    font-size: x-large;
 }
