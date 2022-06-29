@@ -11,12 +11,7 @@ div .toptoleft{
     left: 6em;
     color: white;
 }
-/* div .toptoleftmoreinfo{
-    position: absolute;
-    top: 22em;
-    left: 6em;
-    color: white;
-} */
+
 img{
     width:-webkit-fill-available;
 }

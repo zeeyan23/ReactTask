@@ -1,11 +1,8 @@
 import React from 'react'
 import styles from '../components/Layout.module.css'
-import companyLogo from '../image/welcome1.jpg';
-import welcome2 from '../image/welcome2.jpg';
 import classic from '../image/classic.jpg';
 import comfort from '../image/comfort.jpg';
 import superior from '../image/superior.jpg';
-import sea from '../image/sea.jpg';
 import Footer from './Footer';
 export const Layout = () => {
   return (
@@ -20,7 +17,6 @@ export const Layout = () => {
             from where you can enjoy the view.</p><br /><br /><br /><br />
         <a href='' className={styles.moreinfo}>MORE INFO</a>
         </div>
-        {/* <img src={sea} className={styles.sea} alt="sea image"/> */}
         <div className={styles.overlaydiv}>
           <div>
             <h1>Our Amenities</h1>

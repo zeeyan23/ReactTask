@@ -85,12 +85,8 @@
 }
 /* mobile screen */
 @media only screen and (max-width:650px){
-    /* h3{
-        margin-left: 4em;
-    } */
     .v .para{
         margin-left: 0em;
-        /* margin-top: 19em; */
     }
     p{
         font-stretch: condensed;
@@ -114,8 +110,3 @@
     }
 }
 
-@media only screen and (min-width:1024px){
-    /* .v .overlaydiv{
-        margin-top: 19em;
-    } */
-}
