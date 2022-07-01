@@ -4,6 +4,7 @@ import classic from '../image/classic.jpg';
 import comfort from '../image/comfort.jpg';
 import superior from '../image/superior.jpg';
 import Footer from './Footer';
+
 export const Layout = () => {
   return (
     <div className={styles.v}>

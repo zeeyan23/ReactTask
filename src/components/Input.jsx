@@ -2,8 +2,14 @@ import React from 'react'
 import { useState } from 'react';
 import styles from '../components/Input.module.css'
 import "react-datepicker/dist/react-datepicker.css";
+import { useNavigate } from 'react-router-dom';
+import Header from './Header';
+import FrontDesign from './FrontDesign';
+import Layout from './Layout';
+
 export const Input = ( props) => {
 
+    const navigate=useNavigate();
     const [enteredCheckIn,setEnteredCheckIn]=useState('');
     const [newFormatedDate,setEnteredCheckOut]=useState('');
     const [enteredAdult,setEnteredAdult]=useState(1);
@@ -34,7 +40,16 @@ export const Input = ( props) => {
             setEnteredCheckOut(newFormatedDate);
             meetingEndDateInput.value = newFormatedDate;
             meetingEndDateInput.setAttribute('min', newFormatedDate);
+            meetingStartDateInput.setAttribute('max', date);
+
         }
+    }
+    const disableDates=()=>{
+        const today = new Date();
+        const dd = String(today.getDate() ).padStart(2, "0");
+        const mm = String(today.getMonth() + 1).padStart(2, "0");
+        const yyyy = today.getFullYear();
+        return yyyy + "-" + mm + "-" + dd;
     }
     function checkoutChangeHandler(event){
         setEnteredCheckOut(event.target.value);
@@ -55,16 +70,20 @@ export const Input = ( props) => {
             enteredChildren
         }
         props.onSaveData(FormData);
+        navigate('/ReactTask/dist/avail/');
         setEnteredCheckIn("");
         setEnteredCheckOut("");
         setEnteredAdult("");
         setEnteredChildren("");
+
     }
   return (
+    <>
+    <Header />
+    <FrontDesign />
     <form onSubmit={handleSubmit} className={styles.form}>
-
         <label>Check-in:*</label>
-        <input type='date' name="datepickers" value={enteredCheckIn} onChange={checkinChangeHandler} id="create-smeeting-startdate"></input>
+        <input type='date'name="datepickers" min={disableDates()}  value={enteredCheckIn} onChange={checkinChangeHandler} id="create-smeeting-startdate"></input>
         <label>Check-out:*</label>
         <input type='date' name="datepickers" value={newFormatedDate} onChange={checkoutChangeHandler} id="create-smeeting-enddate" ></input>
         <label>Adults:</label>
@@ -73,7 +92,8 @@ export const Input = ( props) => {
         <input type='number' min='0' max='10' value={enteredChildren} onChange={childrenChangeHandler}></input>
         <button>Submit</button>
     </form>
-
+    <Layout />
+    </>
   )
 }
 
