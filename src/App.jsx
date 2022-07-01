@@ -33,7 +33,7 @@ function App() {
     <>
     <Routes>
       <Route path="/ReactTask/dist/" element={<Input onSaveData={savedData}/> }/>
-      <Route path="/ReactTask/dist/avail" element={dataFound && 
+      <Route path="/ReactTask/dist/availabledata" element={dataFound && 
         <Availabledata
         dateofcheckIn={enteredCheckIn}
         dateofcheckOut={enteredCheckOut}

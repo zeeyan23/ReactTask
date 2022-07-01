@@ -70,7 +70,7 @@ export const Input = ( props) => {
             enteredChildren
         }
         props.onSaveData(FormData);
-        navigate('/ReactTask/dist/avail/');
+        navigate('/ReactTask/dist/availabledata/');
         setEnteredCheckIn("");
         setEnteredCheckOut("");
         setEnteredAdult("");
